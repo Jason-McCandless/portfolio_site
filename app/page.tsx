@@ -3,6 +3,7 @@
 import profilepicture from '../media/profilephoto.jpeg';
 import FloatingLines from "../components/FloatingLines";
 import SocialLinks from "../components/SocialLinks";
+import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
             Software Engineer
           </h2>
           <p className="text-zinc-700 dark:text-zinc-300 text-center mb-6 max-w-md">
-After years in platform and data engineering, I’m channeling my passion into building full stack web applications.
+            After years in platform and data engineering, I’m channeling my passion into building full stack web applications.
           </p>
           <div className="flex flex-wrap gap-2 mb-8">
             <span className="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-semibold">JavaScript</span>
@@ -62,9 +63,9 @@ After years in platform and data engineering, I’m channeling my passion into b
               <div className="font-semibold text-blue-700 dark:text-blue-300">2021–2022</div>
               <div>Big Data Engineer</div>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm">Worked with the Policy data team before it merged with Claims and Quotes to form a Data Lake. From there onwards I supported Claims, Quotes, and Policy MDMs existing applications as the Data Lake team began to build out new infrastructure.
-                </div>
-                <br></br>
-                <div className="text-zinc-500 dark:text-zinc-400 text-sm"><b>Tech:</b> Dremio, Spark/Scala, Unix</div>
+              </div>
+              <br></br>
+              <div className="text-zinc-500 dark:text-zinc-400 text-sm"><b>Tech:</b> Dremio, Spark/Scala, Unix</div>
             </li>
             <li>
               <div className="font-semibold text-blue-700 dark:text-blue-300">2019-2020</div>
@@ -85,20 +86,36 @@ After years in platform and data engineering, I’m channeling my passion into b
               <div className="font-semibold">Greensided</div>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm">A golf-themed social media platform.</div>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm">Users can create accounts, share their golfing experiences, and connect with other golf enthusiasts. They can sign up to clubs and participate in discussions/competitions, as well as log rounds across the world.</div>
+              <br></br>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm"><b>Tech:</b> HTML, CSS, SQL, Next.js, TypeScript, Mantine, Vercel, Render, Supabase</div>
-              <a href="https://github.com/yourusername/awesome-portfolio" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">View on GitHub</a>
+              <br></br>
+              <a
+                href="https://github.com/yourusername/awesome-portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-black dark:text-blue-400 hover:underline text-sm"
+              >
+                <FaGithub className="text-lg" />
+                View on GitHub
+              </a>
               <br></br>
               <a href="https://greensided.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">Visit the site</a>
             </li>
             <li>
               <div className="font-semibold">Task Tracker</div>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm">Reusable React component for dashboards.</div>
-              <a href="https://github.com/yourusername/open-source-widget" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">View on GitHub</a>
+              <a href="https://github.com/yourusername/open-source-widget" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-black dark:text-blue-400 hover:underline text-sm">
+                <FaGithub className="text-lg" />
+                View on GitHub
+              </a>
             </li>
             <li>
               <div className="font-semibold">Pet-Sitting Service App</div>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm">Reusable React component for dashboards.</div>
-              <a href="https://github.com/yourusername/open-source-widget" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">View on GitHub</a>
+              <a href="https://github.com/yourusername/open-source-widget" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-black dark:text-blue-400 hover:underline text-sm">
+                <FaGithub className="text-lg" />
+                View on GitHub
+              </a>
             </li>
             {/* Add more projects as needed */}
           </ul>

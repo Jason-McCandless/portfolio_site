@@ -26,7 +26,7 @@ export default function Home() {
             Jason McCandless
           </h1>
           <h2 className="text-xl text-blue-700 dark:text-blue-300 mb-4">
-            Software Engineer
+            Data Platform Engineer &#8594; Full Stack Developer
           </h2>
           <p className="text-zinc-700 dark:text-zinc-300 text-center mb-6 max-w-md">
             After years in platform and data engineering, I’m channeling my passion into building full stack web applications.
@@ -34,12 +34,12 @@ export default function Home() {
           <p className="text-zinc-700 dark:text-zinc-300 text-center mb-6 max-w-md">
             My other interests include golf, travelling, & online gaming.
           </p>
-          <div className="flex flex-wrap gap-2 mb-8">
+          {/* <div className="flex flex-wrap gap-2 mb-8">
             <span className="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-semibold">JavaScript</span>
             <span className="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200 px-3 py-1 rounded-full text-sm font-semibold">TypeScript</span>
             <span className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 px-3 py-1 rounded-full text-sm font-semibold">React</span>
             <span className="bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 px-3 py-1 rounded-full text-sm font-semibold">Next.js</span>
-          </div>
+          </div> */}
           <h3 className="text-lg font-semibold text-blue-700 dark:text-blue-300 mb-4">
             Contact me below!
           </h3>
@@ -53,14 +53,14 @@ export default function Home() {
             <li>
               <div className="font-semibold text-blue-700 dark:text-blue-300">2025–Present</div>
               <div>Freelance Full Stack</div>
-              <div className="text-zinc-500 dark:text-zinc-400 text-sm">Building a portfolio of web applications. Undertaking the AWS Cloud Practitioner certification course.</div>
+              <div className="text-zinc-500 dark:text-zinc-400 text-sm">Building a portfolio of web applications. Undertaking the <b>AWS Cloud Practitioner</b> certification course.</div>
             </li>
             <li>
               <div className="font-semibold text-blue-700 dark:text-blue-300">2022–2025</div>
               <div>Data Platform Engineer</div>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm">Integrated a vended Feature Store (Hopsworks) into the data pipeline. Managed ~120 RHEL Servers across 2 data centers and 3 environments. Worked with Data Scientists and other key stakeholders to enhance data accessibility and usability. Attended regular CAB meetings to demonstrate platform changes for production deployment. Delivered a smoke test suite to continuously validate platform uptime and serve as an early-warning system.</div>
               <br></br>
-              <div className="text-zinc-500 dark:text-zinc-400 text-sm"><b>Tech:</b> Hopsworks, Apache Kafka, Java, Python, BASH, Linux, Ansible (Infrastructure as Code), Github for version control</div>
+              <div className="text-zinc-500 dark:text-zinc-400 text-sm"><b>Tech:</b> Hopsworks, Apache Kafka, Java, Python, BASH, RHEL 8, Ansible (Infrastructure as Code), Github for version control</div>
             </li>
             <li>
               <div className="font-semibold text-blue-700 dark:text-blue-300">2021–2022</div>
@@ -86,32 +86,33 @@ export default function Home() {
           <h3 className="text-xl font-bold mb-4 text-zinc-900 dark:text-zinc-100">Side Projects</h3>
           <ul className="space-y-4">
             <li>
-              <div className="font-semibold">Greensided</div>
+              <div className="font-semibold text-blue-700 dark:text-blue-300">Greensided</div>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm">A golf-themed social media platform.</div>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm">Users can create accounts, share their golfing experiences, and connect with other golf enthusiasts. They can sign up to clubs and participate in discussions/competitions, as well as log rounds across the world.</div>
               <br></br>
-              <div className="text-zinc-500 dark:text-zinc-400 text-sm"><b>Tech:</b> HTML, CSS, SQL, Next.js, TypeScript, Mantine, Vercel, Render, Supabase</div>
-              <br></br>
-              <br></br>
+              <div className="text-zinc-500 dark:text-zinc-400 text-sm"><b>Tech:</b> HTML, CSS, SQL, RESTful APIs, Next.js, TypeScript, Mantine, Vercel, Render, Supabase</div>
               <a href="https://greensided.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">Visit the site</a>
             </li>
             <li>
+              <h3 className="text-lg font-bold text-zinc-900 dark:text-zinc-100">Upcoming Projects</h3>
+              <p className="text-zinc-500 dark:text-zinc-400 text-sm">These are projects I am currently working on or planning to start soon to expand my skill set:</p>
+              <br></br>
               <div className="font-semibold">Task Tracker</div>
-              <div className="text-zinc-500 dark:text-zinc-400 text-sm">Reusable React component for dashboards.</div>
-              <a href="https://github.com/yourusername/open-source-widget" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-black dark:text-blue-400 hover:underline text-sm">
+              <div className="text-zinc-500 dark:text-zinc-400 text-sm">Task management tool built with React Native.</div>
+              {/* <a href="https://github.com/yourusername/open-source-widget" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-black dark:text-blue-400 hover:underline text-sm">
                 <FaGithub className="text-lg" />
                 View on GitHub
-              </a>
+              </a> */}
             </li>
             <li>
               <div className="font-semibold">Pet-Sitting Service App</div>
-              <div className="text-zinc-500 dark:text-zinc-400 text-sm">Reusable React component for dashboards.</div>
-              <a href="https://github.com/yourusername/open-source-widget" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-black dark:text-blue-400 hover:underline text-sm">
+              <div className="text-zinc-500 dark:text-zinc-400 text-sm">Flask app for connecting pet owners with sitters, with GraphQL.</div>
+              {/* <a href="https://github.com/yourusername/open-source-widget" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-black dark:text-blue-400 hover:underline text-sm">
                 <FaGithub className="text-lg" />
                 View on GitHub
-              </a>
+              </a> */}
             </li>
-            {/* Add more projects as needed */}
+            {/* Room for extra projects */}
           </ul>
         </section>
       </main>

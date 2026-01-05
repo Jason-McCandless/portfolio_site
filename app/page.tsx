@@ -31,6 +31,9 @@ export default function Home() {
           <p className="text-zinc-700 dark:text-zinc-300 text-center mb-6 max-w-md">
             After years in platform and data engineering, I’m channeling my passion into building full stack web applications.
           </p>
+          <p className="text-zinc-700 dark:text-zinc-300 text-center mb-6 max-w-md">
+            My other interests include golf, travelling, & online gaming.
+          </p>
           <div className="flex flex-wrap gap-2 mb-8">
             <span className="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-sm font-semibold">JavaScript</span>
             <span className="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200 px-3 py-1 rounded-full text-sm font-semibold">TypeScript</span>
@@ -38,7 +41,7 @@ export default function Home() {
             <span className="bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 px-3 py-1 rounded-full text-sm font-semibold">Next.js</span>
           </div>
           <h3 className="text-lg font-semibold text-blue-700 dark:text-blue-300 mb-4">
-            Contact Me
+            Contact me below!
           </h3>
           <SocialLinks />
         </div>
@@ -89,15 +92,6 @@ export default function Home() {
               <br></br>
               <div className="text-zinc-500 dark:text-zinc-400 text-sm"><b>Tech:</b> HTML, CSS, SQL, Next.js, TypeScript, Mantine, Vercel, Render, Supabase</div>
               <br></br>
-              <a
-                href="https://github.com/yourusername/awesome-portfolio"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-black dark:text-blue-400 hover:underline text-sm"
-              >
-                <FaGithub className="text-lg" />
-                View on GitHub
-              </a>
               <br></br>
               <a href="https://greensided.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">Visit the site</a>
             </li>
